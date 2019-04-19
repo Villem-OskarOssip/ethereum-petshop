@@ -23,7 +23,10 @@ Enter this to terminal to install Truffle:
 3. Run migrations ```truffle migrate```
 4. Run tests ```truffle test```
 
-## How to run project with out injected web3 instance (Metamask)
+# Interacting with the dapp in a browser
+Now we're ready to use our dapp!
+
+## Installing and configuring MetaMask
 1. Install Google Chrome
 2. Open Google Chrome
 3. Start Ganache and select quick start
@@ -45,9 +48,22 @@ Enter this to terminal to install Truffle:
 Each account created by Ganache is given 100 ether. You'll notice it's slightly less on the first account because some gas was used when the contract itself was deployed and when the tests were run.
 ![MetaMask account configured](https://truffleframework.com/img/tutorials/pet-shop/metamask-account1.png)
 
+## Using the dapp
+
+0. Make sure Ganache is running and Metamask is configured (Metamask is optional. Project also work without Metamask)
 1. Compile ```truffle compile```
 3. Run migrations ```truffle migrate```
 3. Start the dapp ```npm run dev```
 
+The dev server will launch and automatically open a new browser tab containing your dapp.
+![Pete's Pet Shop](https://truffleframework.com/img/tutorials/pet-shop/dapp.png)
+4. A MetaMask pop-up should appear requesting your approval to allow Pete's Pet Shop to connect to your MetaMask wallet. Without explicit approval, you will be unable to interact with the dapp. Click Connect.
+![MetaMask approval request](https://truffleframework.com/img/tutorials/pet-shop/metamask-transactionconfirm.png)
+5. To use the dapp, click the Adopt button on the pet of your choice.
+6. You'll be automatically prompted to approve the transaction by MetaMask (If you are not using Metamask then transaction will take place with out second confirmation (check Ganache UI or terminal)). Click Submit to approve the transaction.
+![Adoption success](https://truffleframework.com/img/tutorials/pet-shop/dapp-success.png)
+And in MetaMask, you'll see the transaction listed:
+![MetaMask transaction](https://truffleframework.com/img/tutorials/pet-shop/metamask-transactionsuccess.png)
+You'll also see the same transaction listed in Ganache under the "Transactions" section.
 
-
+Congratulations you are not a retard!
