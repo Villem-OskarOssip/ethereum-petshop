@@ -67,3 +67,4 @@ And in MetaMask, you'll see the transaction listed:
 You'll also see the same transaction listed in Ganache under the "Transactions" section.
 
 Congratulations you are not a retard!
+![Coockie](https://lh3.ggpht.com/PeMzkGiu5eqdh2LhYapIw7Mz85oE6WhgIxGq6uufEs91eFtB5KzLl4uj2Gey7BFalaAWS8hp_TWD-dLhSJkgLdrvK1ef=s0)
