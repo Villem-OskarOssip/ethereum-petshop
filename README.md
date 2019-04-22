@@ -4,7 +4,7 @@ This project has been created in educational purpose. This demo was created by T
 
 Follow the below documentation to run the Ethereum petshop example on Ethereum.
 
-**Make sure to run all snak commands in the ethereum-petshop' directory.**
+**Make sure to run all commands in the ethereum-petshop directory.**
 
 ## Reqirements.
 * Git
