@@ -1,4 +1,4 @@
-# PetShop Example using Ethereum
+# PetShop Example using Ethereum (By Truffle)
 This is an example project that is running a petshop using Ethereum.
 This project has been created in educational purpose. This demo was created by Truffle Suite ([link](https://truffleframework.com/tutorials/pet-shop) to original materials)
 
